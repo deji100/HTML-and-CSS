@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+/* body {
+    height: 100%;
+    background: lightblue;
+    background: radial-gradient(
+        circle,
+        rgb(240, 243, 218) 40%,
+        rgb(225, 235, 87) 100%
+    )
+} */
+
+body {
+    height: 100%;
+    background: linear-gradient(
+        rgba(30, 107, 26, 1) 0%,
+        rgba(50, 10, 200, 1) 50%, 
+        rgba(200, 50, 100, 1) 100%
+    );
+}

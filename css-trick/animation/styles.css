@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    width: 400px;
+    height: 400px;
+    border: 1px solid lightgreen;
+    animation: blink 10s infinite;
+}
+
+@keyframes blink {
+    0% {
+        background-color: yellow;
+    }
+    15% {
+        background-color: green;
+    }
+    30% {
+        background-color: orange;
+    }
+    45% {
+        background-color: red;
+    }
+    60% {
+        background-color: purple;
+    }
+    75% {
+        background-color: lightblue;
+    }
+    90% {
+        background-color: gray;
+    }
+    100% {
+        background-color: pink;
+    }
+}

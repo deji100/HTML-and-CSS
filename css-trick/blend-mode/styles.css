@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./ArcadiaF-400x220.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 81, 128, 0.904);
+    background-blend-mode: screen;
+}
